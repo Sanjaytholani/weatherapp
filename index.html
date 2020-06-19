@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather</title>
+</head>
+<body>
+    <div class="container my-5 mx-auto">
+        <h1 class="text-muted text-center my-4">Weather</h1>
+        <form class="change-location my-4 text-center text-muted">
+            <label for="city">Enter Location</label>
+            <input type="text" name="city" class="form-control p-2">
+        </form>
+        <div class="rounded card shadow-lg d-none">
+            <img src="https://via.placeholder.com/400x300" class="time card-img-top">
+            <div class="icon text-center bg-light mx-auto">
+                <img src="" alt="">
+            </div>
+            <div class="details text-muted text-upppercase text-center">
+                <h5 class="my-3">CITY NAME</h5>
+                <div class="my-3">Weather Condition</div>
+                <div class="display-4 my-4">
+                    <span>Tepm</span>
+                    <span>&deg;C</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="scripts/forecast.js"></script>
+    <script src="scripts/app.js"></script>
+</body>
+</html>
